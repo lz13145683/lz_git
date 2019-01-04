@@ -3,6 +3,15 @@ package com.itheima.domain;
 public class User {
     private Integer id;
     private String name;
+    private String ahe;
+
+    public String getAhe() {
+        return ahe;
+    }
+
+    public void setAhe(String ahe) {
+        this.ahe = ahe;
+    }
 
     public Integer getId() {
         return id;
@@ -25,6 +34,7 @@ public class User {
         return "User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
+                ", ahe='" + ahe + '\'' +
                 '}';
     }
 }
